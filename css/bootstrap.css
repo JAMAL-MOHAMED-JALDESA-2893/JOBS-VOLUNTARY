@@ -2448,7 +2448,7 @@ textarea.form-control-lg {
   filter: none;
   opacity: 0.5;
 }
-.form-check-input[disabled] ~ .form-check-label, .form-check-input:disabled ~ .form-check-label {
+.form-check-input[disabled] ~ .form-check-, .form-check-input:disabled ~ .form-check-label {
   opacity: 0.5;
 }
 
@@ -4253,7 +4253,7 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-image: url("assets/ft-joblisting/background2.jpg");
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -4414,9 +4414,9 @@ textarea.form-control-lg {
   width: 100%;
   padding: 1rem 1.25rem;
   font-size: 1rem;
-  color: #212529;
+  color: #ffffff;
   text-align: left;
-  background-color: #fff;
+  background-color: #212529;
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
