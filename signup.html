@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Sign Up</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <style>
     body {
@@ -98,41 +98,55 @@ font-size: 19px;
     <div class="container">
     <div class="text-dark">
       <div id="header">
+        <div class ="form-group">
       <nav class="navbar navbar-expand-lg navbar-dark">
-                  <p><em>Jobs Voluntary</em></p>
+                  <img src=assets/ft-landing/help.png height="50px" alt="The organization logo">
+                  <p><em>Voluntary Jobs Hub</em></p>
                   <ul class="nav-items">
                       <li><a href="index.html">Home Page</a></li>
                   </ul>
       </div>
+      </div>
        </nav>
+       <div class ="form-group">
       <h1>Sign Up</h1>
       <p>Please Fill In This Form And Become A Volunteer Today!  .</p>
+      </div>
       <hr>
+      <div class="input-group">
+    <div class="input-group-prepend">
+        <span class="input-group-text">Your Name</span>
+    </div>
+    <input type="text" class="form-control" placeholder="First name">
+    <input type="text" class="form-control" placeholder="Last name">
+  </div><br><br>
+    <div class="input-group">
+    <div class="input-group-prepend">
+        <span class="input-group-text">Email</span>
+    </div>
+    <input type="text" class="form-control" placeholder="Your Email Here">
+    </div><br><br>
 
-      <label for="fname"><b>First Name</b></label>
-      <input type="text" placeholder="Enter First Name" name="fname" required><br><br><br>
-
-      <label for="lname"><b>Last Name</b></label>
-      <input type="text" placeholder="Enter Last Name" name="lname" required><br><br><br>
-
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required><br><br><br>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required><br><br><br>
-
-      <label for="psw-repeat"><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br><br><br>
-
+      <div class ="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Password</span>
+        </div>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      </div><br><br>
+      <div class ="form-group">
       <label>
         <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember Me!
       </label>
-
+      </div>
+      <div class ="form-group">
       <p>By being one of us, you agree to our <a href="#" style="color:dodgerblue">Terms & Conditions</a>.</p>
-
+      </div>
+      <div class ="form-group">
       <div class="clearfix">
         <a href="index.html" class="btn btn-primary">Cancel</a>
         <a href="joblisting.html" class="btn btn-primary">Sign Up</a>
+      </div>
       </div>
     </div>
     </div>
